@@ -9,9 +9,7 @@ def lesser_of_two_evens(a,b):
     else:
         return max(a,b)
 
-result = lesser_of_two_evens(2,4)
-print(result)
+print(lesser_of_two_evens(2,4))
 
-result = lesser_of_two_evens(2,5)
-print(result)
+print(lesser_of_two_evens(2,5))
 
