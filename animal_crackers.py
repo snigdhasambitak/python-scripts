@@ -10,3 +10,4 @@ def animal_crackers(word):
 print(animal_crackers('live life'))
 
 print(animal_crackers('schitts creek'))
+
