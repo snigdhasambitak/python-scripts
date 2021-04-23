@@ -6,6 +6,7 @@
 
 def count_primes(num):
     counter = 0
+    primes = []
     for n in range(2,num+1):
         prime=1
         for i in range(2,n):
@@ -14,6 +15,8 @@ def count_primes(num):
                 break
         if prime == 1:
             counter += 1
+            primes.append(n)
+    print(primes)
     return counter
 
 
